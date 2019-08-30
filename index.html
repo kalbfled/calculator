@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- (C) 2019 David J. Kalbfleisch -->
+
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculator.css">
+        <link id="theme" rel="stylesheet" href="calculator_theme1.css">
+        <link rel="prefetch" href="calculator_theme2.css">
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+
+    <body>
+        <!-- This button toggles between 2 color themes. -->
+        <button id="toggle" type="button">Toggle Theme</button>
+
+        <!-- The calculator is a grid with 4 columns and 6 rows. -->
+        <div id="calculator">
+            <div id="output">0</div>
+
+            <div id="AC" class="secondary">AC</div>
+            <div id="plus_minus" class="secondary">&plusmn;</div>
+            <div id="percentage" class="secondary">&percnt;</div>
+            <div id="divide" class="accent">&divide;</div>
+
+            <div id="seven">7</div>
+            <div id="eight">8</div>
+            <div id="nine">9</div>
+            <div id="times" class="accent">&times;</div>
+
+            <div id="four">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+            <div id="minus" class="accent">&minus;</div>
+
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="plus" class="accent">&plus;</div>
+
+            <div id="zero"><span>0</span></div>
+            <div id="dot"><span>&#8729;</span></div>
+            <div id="equals" class="accent">&equals;</div>
+        </div>
+
+        <script>
+            // Attach event listeners.
+            init();
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,32 @@
+/*
+(C) 2019 David J. Kalbfleisch
+
+Theme: Black and white text; red accent
+*/
+
+#calculator
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+#calculator > div { background-color: #b3b3b3; }
+#calculator > div:hover { background-color: #c4c4c4; }
+
+#calculator > #output
+{
+    background-color: rgba(50, 30, 0, 0.8);
+    color: white;
+}
+
+#calculator > div.secondary { background-color: #9a9a9a; }
+#calculator > div.secondary:hover { background-color: #acacac; }
+
+#calculator > div.accent
+{
+    background-color: #cc0000;
+    color: white;
+}
+
+#calculator > div.accent:hover { background-color: #b30500; }
+

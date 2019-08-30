@@ -1,0 +1,48 @@
+/*
+(C) 2019 David J. Kalbfleisch
+
+These styles are common for both themes.
+*/
+
+body { font-size: 100%; }
+
+button { margin-bottom: 20px; }
+
+#calculator
+{
+    box-shadow: 1px 1px 15px 2px black;
+    box-sizing: border-box;
+    display: grid;
+    font-family: Arial, sans;
+    grid-gap: 1px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 14% 14% 14% 14% 14%;
+    max-width: 3in;
+    overflow: hidden;
+    text-align: center;
+}
+
+#calculator > #zero { grid-column: 1 / span 2; }
+
+#calculator > #zero > span
+{
+    grid-column: 1 / span 2;
+    position: relative;
+    right: 29%;
+}
+
+#calculator > div { padding: 1em 9%; }
+
+#calculator > #output
+{
+    font-size: 2em;
+    grid-column: 1 / span 4;
+    text-align: right;
+}
+
+#calculator > #dot > span
+{
+    position: relative;
+    top: 20%;
+}
+
