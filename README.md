@@ -3,11 +3,7 @@
 (C) 2019 David J. Kalbfleisch
 
 This repository implements a front-end for a calculator using vanilla JavaScript, HTML5,
-and CSS.  There are no dependencies.  Run it by opening index.html locally or by
-[clicking here](http://www.purdone.com/dave/calculator/).
-
-For further assessment of my ability with front end and full stack technologies, be sure
-to check out my other Github repositories.
+and CSS.  There are no dependencies.
 
 ## Technical Discussion
 
